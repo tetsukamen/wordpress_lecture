@@ -1,90 +1,68 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
-	<meta charset="utf-8">
-	<title>ウェブストエイト</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">    
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta charset="utf-8">
+    <title>未来に羽ばたくエンジニア団体 Volare</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
+    <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/"
+        crossorigin="anonymous"></script>
+
     <?php wp_head(); ?>
 </head>
-<body>
-	<header>
-		<nav class="navbar navbar-default" style="margin-bottom:0;">
-		  <div class="navbar-header">
-		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-navbar-collapse-1">
-		      <span class="sr-only">メニュー</span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		      <span class="icon-bar"></span>
-		    </button>
-		  </div>
-		  <div id="bs-navbar-collapse-1" class="collapse navbar-collapse">
-		    <ul class="nav navbar-nav">
-		      <li><a href="#">HOME</a></li>
-		      <li><a href="#">PROFILE</a></li>
-					<li><a href="#">BLOG</a></li>
-		      <li><a href="#">CONTACT</a></li>
-		    </ul>
-		  </div>
-		</nav>
-		<div id="top-vg">
-			<img src="images/top.jpeg" alt="トップページ画像" >
-		</div>
-	</header>
- <section id="content">
-	 <div id="content-wrap" class="container">
- 		<div id="main" class="col-md-9">
- 			<h1 class="text-center">個人事業主向けWebスクール ウェブストエイト</h1>
- 			<p>
- 				ウェブストエイトは自分でホームページ制作・Web集客したい方向けの
- 				少人数制個別指導のスクール・塾です。 
- 				<br><br>
- 				継続6ヶ月コースとお試し1ヶ月コースから選択して受講できます。
- 			</p>
- 			<div class="row">
- 				<div class="col-md-6">
- 					<p><img src="images/pc-wood.jpg" alt="6ヶ月コース画像"></p>
- 					<h2 class="text-center">しっかり6ヶ月コース</h2>
- 					<p>ホームページ作成からWeb集客まで一通り習得して売上拡大したい方向けのコース</p>
 
- 				</div>
- 				<div class="col-md-6">
- 					<p><img src="images/pc-leaf.jpg" alt="1ヶ月コース画像"></p>
- 					<h2 class="text-center">お試し1ヶ月コース</h2>
- 					<p>特定範囲のみ習いたい・まずは試しに受講してみたい方向けのコース</p>
- 				</div>
- 			</div>
- 			<p class="text-center">
- 				<br>
- 				お申し込みは<a href="https://webst8.com">こちらから</a>
- 				<br><br>
- 			</p>
- 		</div>
- 		<div id="sidebar" class="col-md-3">
- 			<h1 class="text-center">セミナー情報</h1>
- 			<section id="wordpress-seminar">
- 				<h2>WordPress入門セミナー</h2>
- 				<p>
- 					<img src="images/seminar-wordpress.png" alt="ワードプレスセミナー画像">
- 				</p>					
- 			</section>
- 			<section id="seo-seminar">
- 				<h2>SEO入門セミナー</h2>
- 				<p>
- 					<img src="images/seminar-seo.png" alt="SEOセミナー画像">
- 				</p>					
- 			</section>
- 		</div>
- 	</div>
- </section>
-	<footer>
-		<div class="container">
-			<p class="text-center">Copyright © Webst8 All Rights Reserved.</p>
-		</div>
-	</footer>
-    <?php wp_footer(); ?>	
+<body>
+    <header>
+        <div id="top-vg">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/img01.jpeg" alt="ヘッダー画像">
+        </div>
+    </header>
+    <section id="content">
+        <div id="main" class="container">
+            <div>
+                <h1 class="text-center">未来に羽ばたくエンジニア団体 Volare</h1>
+                <p>Volareは「面白い学生と出会い続けられる場所を作る」を理念とし、活動しています。<br>週一回の全体ミーティングの他、個人・複数人でアプリケーション開発に取り組んだり、プログラミングの大会挑戦するなどしています。
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div><img src="<?php echo get_template_directory_uri(); ?>/images/img02.jpeg" alt="1ヶ月コース画像"></div>
+                    <h2 class="text-center">毎週水曜日にミーティング</h2>
+                    <p>コロナの影響で最近はオンラインにて、勉強会やもくもく会を開催しています！</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div><img src="<?php echo get_template_directory_uri(); ?>/images/img03.jpeg" alt="ワードプレスセミナー画像">
+                    </div>
+                    <h2 class="text-center">チーム開発</h2>
+                    <p>有志のメンバーでチーム開発をすることもあります。複数人での開発もプログラミングの醍醐味の一つです！</p>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div><img src="<?php echo get_template_directory_uri(); ?>/images/img04.jpeg" alt="SEOセミナー画像"></div>
+                    <h2 class="text-center">打ち上げ</h2>
+                    <p>最近はコロナの影響で行っていませんが、大きなイベントの後はみんなで食事に行きます！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="text-center">Copyright © YourName All Rights Reserved.</p>
+        </div>
+    </footer>
+    <?php wp_footer(); ?>
 </body>
+
 </html>

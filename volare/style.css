@@ -18,15 +18,11 @@ h3 {
 }
 img {
     max-width: 100%;
+    width: 100%;
 }
 #content {
-    background: url(images/pattern-diamond.png);
     padding-top: 20px;
     padding-bottom: 20px;
-}
-#content-wrap {
-    background-color: white;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
 }
 #sidebar {
     text-align: center;
@@ -37,4 +33,11 @@ footer {
 footer p {
     padding: 15px 0;
     color: white;
+}
+
+/* top-vg */
+#top-vg img {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
 }
